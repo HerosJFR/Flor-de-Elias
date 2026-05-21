@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+main {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: blue;
+}
+
+nav {
+    background-color: red;
+}
+
+footer {
+    background-color: brown;
+}
+
+.header_conteiner {
+    display: flex;
+    
+
+}
+
+
+
+.menu {
+    list-style-type: none;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 15px 30px 15px;
+}
